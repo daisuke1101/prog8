@@ -1,0 +1,54 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+  
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  
+  .top-wrapper {
+    text-align: left;
+  }
+ 
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+  }
+  
+  .header-right {
+    display: none;
+  }
+  
+  .top-wrapper .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  
+  .lesson {
+    width: 100%;
+  }
+}
